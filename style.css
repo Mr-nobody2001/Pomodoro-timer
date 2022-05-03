@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono";
+}
+
+body{
+    background-color: #D95550;
+}
+
+/* Corpo do Timer */
+
+.classGlobal{
+    /* Bakcground */
+    background-color: #DD6662;
+    width: 537px;
+    height: 365px;
+    border-radius: 10px;
+
+    /* Posição */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    
+}
+
+/* Opções do Timer */
+
+li{
+    /* Texto */
+    list-style-type: none;
+
+    /* Posição */
+    display: inline-block;
+}
+
+.classButaoN{
+    /* Texto */
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+
+    /* Background */
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #DD6662;
+
+    /* Espaçamento */
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+/* Contador do Timer */
+
+h1{
+    /* Texto */
+    color: #ffffff;
+    font-size: 140px;
+    transform: translateY(5%);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Botão do disparar e reiniciar o Timer */
+
+.classButao{
+    /* Posição */
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    transform: translateX(50%);
+
+    /* Espaçamento */
+    padding: 10px;
+    width: 200px;
+
+    /* Texto */
+    color: #DD6662;
+    font-size: 30px;
+
+    /* Background */
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.2);
+}
